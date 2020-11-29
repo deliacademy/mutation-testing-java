@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: tech.delia.BirdTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.093 sec - in tech.delia.BirdTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.156 sec - in tech.delia.BirdTest

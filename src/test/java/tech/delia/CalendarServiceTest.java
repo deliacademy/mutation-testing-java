@@ -36,4 +36,13 @@ public class CalendarServiceTest
                 new Bird(Species.SWALLOW, Sex.FEMALE, 18)
         )));
     }
+
+    @Test
+    void isItSpringYetIsFalseWhen2BirdsNotSwallow()
+    {
+        assertFalse(calendarService.isItSpringYet(List.of(
+                new Bird(Species.DUCK, Sex.FEMALE, 18),
+                new Bird(Species.PIGEON, Sex.FEMALE, 18)
+        )));
+    }
 }
